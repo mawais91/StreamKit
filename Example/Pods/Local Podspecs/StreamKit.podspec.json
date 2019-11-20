@@ -1,0 +1,31 @@
+{
+  "name": "StreamKit",
+  "version": "0.1.0",
+  "summary": "A short description of StreamKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mawais91/StreamKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mawais91": "awaiswork91@mail.com"
+  },
+  "source": {
+    "git": "https://github.com/mawais91/StreamKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StreamKit/Classes/*.{h,m}",
+  "requires_arc": true,
+  "ios": {
+    "frameworks": [
+      "SystemConfiguration",
+      "CFNetwork",
+      "CoreFoundation",
+      "AudioToolbox"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - StreamKit (0.1.0)
+
+DEPENDENCIES:
+  - StreamKit (from `../`)
+
+EXTERNAL SOURCES:
+  StreamKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StreamKit: 10b18b5c9e29cb2b81de53b0b8e64f38b3bab5a3
+
+PODFILE CHECKSUM: 336e2271f04ccec9000762a788a8d29e3fa57f50
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'StreamKit_Example' do
+  pod 'StreamKit', :path => '../'
+
+  target 'StreamKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
